@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maharaja Food Delivery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #4b0082, #800080);
+      color: #fff;
+    }
+    header {
+      background-color: #2e0854;
+      padding: 1em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.8em;
+      color: gold;
+    }
+    nav a {
+      margin: 0 1em;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .section {
+      padding: 2em;
+      margin: 1em;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.1);
+    }
+    .btn {
+      background-color: gold;
+      color: #2e0854;
+      padding: 0.8em 1.2em;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      background-color: #2e0854;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>👑 Maharaja Food Delivery</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#order">My Order</a>
+      <a href="#contact">Customer Care</a>
+    </nav>
+  </header>
+
+  <section id="home" class="section">
+    <h2>Welcome to Maharaja Food Delivery</h2>
+    <p>Enjoy royal taste delivered to your doorstep.</p>
+  </section>
+
+  <section id="menu" class="section">
+    <h2>🍽️ Our Menu</h2>
+    <p>Explore a wide range of delicious dishes made with royal recipes.</p>
+    <ul>
+      <li>Butter Chicken - ₹250</li>
+      <li>Paneer Tikka - ₹180</li>
+      <li>Biryani - ₹220</li>
+      <li>Gulab Jamun - ₹90</li>
+    </ul>
+  </section>
+
+  <section id="order" class="section">
+    <h2>📦 My Order</h2>
+    <p>You currently have no active orders.</p>
+    <button class="btn">Start a New Order</button>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>📞 Customer Care</h2>
+    <p>Have questions or need help? Contact us at: <strong>1800-MAHARAJA</strong> or <strong>support@maharajafood.com</strong></p>
+  </section>
+
+  <section class="section">
+    <h2>📱 Download Our Android App</h2>
+    <p>Get the full experience on mobile. Coming soon to Google Play Store!</p>
+    <button class="btn">Notify Me</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Maharaja Food Delivery. All rights reserved.</p>
+  </footer>
+</body>
+</html>
